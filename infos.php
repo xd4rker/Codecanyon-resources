@@ -1,7 +1,7 @@
 <?php
 
 	include("imdb_parser/lib/Parser.class.php");
-	$Parser = new Parser($_POST['name']);
+	$Parser = new Parser("Breaking bad");
 	
 	$info = $Parser->get_info();
 	
