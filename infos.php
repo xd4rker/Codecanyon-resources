@@ -17,6 +17,7 @@
 	echo "Director : "  .$info["director"]. "\n";
 	echo "Description : " .$info["description"]. "\n";
 	echo "Thumbnail : " .$info["thumbnail"]. "\n";
+	echo "Thumbnail (HQ) : " .$info["hq_thumbnail"]. "\n";
 	echo "Release date : "  .$info["release_date"]. "\n";
 	
 	echo "Type : "  .$info["type"]. "\n";
