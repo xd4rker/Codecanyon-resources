@@ -9,7 +9,7 @@
     
     $Parser = new Parser("The amazing spiderman");
     
-    &info = $Parser->get_info();
+    $info = $Parser->get_info();
   ?>
   
   <p>Title : <?php echo $info["title"]; ?> </p>
